@@ -1,0 +1,18 @@
+*{padding: 0; margin: 0}
+
+.box{
+	position: relative;
+	float: left;
+	width: 100%
+}
+.content{
+	padding: 10px;
+	border:3px solid #CCC;
+	box-shadow: 0 0 5px #CCC;
+	border-radius: 5px;
+	margin: 20;
+	background:#FFFACD;
+}
+.message{
+	font-size: 24px;
+}
