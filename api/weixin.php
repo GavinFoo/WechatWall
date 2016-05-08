@@ -160,7 +160,7 @@
 			}
        // }
        if($content == '节目单'){
-       		$this->responseText('<a href=\"http://kirisamenana.com/cjluzs/images/xiaoli.jpg\" title=\"点我查看节目单\">点我查看节目单</a>');
+       		$this->responseText('<a href="http://kirisamenana.com/cjluzs/images/jiemudan.jpg" title="点我查看节目单">点我查看节目单</a>');
        		}
 		if($content == '重置'){
 				$reply = $this->resetflag($weixin_name,$from);
