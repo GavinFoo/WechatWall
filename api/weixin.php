@@ -159,6 +159,9 @@
 				$check[2] = '-10';
 			}
        // }
+       if($content == '节目单'){
+       		$this->responseText('点我查看节目单');
+       		}
 		if($content == '重置'){
 				$reply = $this->resetflag($weixin_name,$from);
 				$check[2] = '-10';
@@ -176,7 +179,6 @@
 		}
 		elseif($check[2] == '2'){
 				$reply =$this->replay($from,$time,$content);
-			
 			}else{
             global $plugsc;
             $plugs=$plugsc->find("switch=1 and status='".$check[2]."'");
